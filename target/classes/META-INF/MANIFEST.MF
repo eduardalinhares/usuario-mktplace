@@ -1,7 +1,8 @@
 Manifest-Version: 1.0
 Built-By: elinh
 Build-Jdk: 17.0.8
-Class-Path: libs/postgresql-42.6.0.jar libs/checker-qual-3.31.0.jar
+Class-Path: libs/postgresql-42.6.0.jar libs/checker-qual-3.31.0.jar libs
+ /commons-codec-1.16.0.jar
 Main-Class: br.com.senai.usuariomarketplace.InitApp
 Created-By: Maven Integration for Eclipse
 
