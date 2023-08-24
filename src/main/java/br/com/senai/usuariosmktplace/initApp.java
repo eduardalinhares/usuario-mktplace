@@ -12,11 +12,7 @@ public class InitApp {
 	
 	public static void main(String [] args) {
 		
-		UsuarioService serice = new UsuarioService();
-		
-		System.out.println(serice.removerAcentoDo("Jacó da Silva") );
-		System.out.println(serice.fracionar("José da Silva Alburquerque dos Anjos e Bragaça"));
-		System.out.println(serice.gerarLoginPor("José da silva dos Anjos"));
-		System.out.println(serice.gerarHashDa("jose123456"));
+		UsuarioService service = new UsuarioService();
+		service.criarPor("Tatiana Machado", "pita123");
 	}
 }
