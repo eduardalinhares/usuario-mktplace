@@ -13,6 +13,7 @@ public class InitApp {
 	public static void main(String [] args) {
 		
 		UsuarioService service = new UsuarioService();
-		service.criarPor("Tatiana Machado", "pita123");
+		service.criarPor("Tatiana "
+				+ "Machado", "pita123");
 	}
 }
