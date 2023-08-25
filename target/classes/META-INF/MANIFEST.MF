@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: elinh
+Build-Jdk: 17.0.8
+Class-Path: libs/guava-32.1.2-jre.jar libs/failureaccess-1.0.1.jar libs/
+ listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar libs/jsr
+ 305-3.0.2.jar libs/checker-qual-3.33.0.jar libs/error_prone_annotations
+ -2.18.0.jar libs/j2objc-annotations-2.8.jar libs/postgresql-42.6.0.jar 
+ libs/commons-codec-1.16.0.jar
+Main-Class: br.com.senai.usuariomarketplace.InitApp
+Created-By: Maven Integration for Eclipse
+
